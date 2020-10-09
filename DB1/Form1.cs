@@ -15,14 +15,16 @@ namespace DB1
         public Form1()
         {
             InitializeComponent();
-            label1.Text = DateTime.Now.ToString("yyyy-MM-dd");
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             textBox1.Text = "Hi~";
-            MessageBox.Show("i'm good!");
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show("i'm good!");
+        }
     }
 }
