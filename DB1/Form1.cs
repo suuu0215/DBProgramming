@@ -15,6 +15,7 @@ namespace DB1
         public Form1()
         {
             InitializeComponent();
+            label1.Text = DateTime.Now.ToString("yyyy-MM-dd");
         }
 
         private void button1_Click(object sender, EventArgs e)
