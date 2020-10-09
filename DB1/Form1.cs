@@ -19,7 +19,7 @@ namespace DB1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "Bye~~~";
+            textBox1.Text = "Bye~";
 
         }
 
