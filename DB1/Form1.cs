@@ -15,12 +15,12 @@ namespace DB1
         public Form1()
         {
             InitializeComponent();
-            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "good evening.";
+            textBox1.Text = "Hi~~~";
+            MessageBox.Show("i'm good!");
         }
     }
 }
